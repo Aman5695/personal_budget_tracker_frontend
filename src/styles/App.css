@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+  }
+  h1, h2 {
+    margin: 0.5em 0;
+  }
+  button {
+    cursor: pointer;
+  }
+/* src/styles/App.css */
+.tooltip {
+    position: absolute;
+    text-align: center;
+    padding: 4px 8px;
+    background: rgba(255,255,255,0.9);
+    border: 1px solid #999;
+    border-radius: 4px;
+    pointer-events: none;
+    font-size: 0.8em;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+  }
+
+  .icon{
+    cursor: pointer;
+  }
+  .icon:hover {
+    transform: scale(1.1);
+  }
+
+  .delete{
+    color: #ee4646; 
+  }
+  .edit{
+    color: #5d5dee; 
+  }
+  
+  

@@ -1,0 +1,26 @@
+.budget-mgmt {
+    margin: 1em 0;
+    text-align: center;
+  }
+  .budget-mgmt input {
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 0.5em;
+  }
+  .budget-mgmt button {
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 4px;
+    background-color: #17a2b8;
+    color: #fff;
+    margin-bottom: 0.5em;
+  }
+  .budget-mgmt svg {
+    display: block;
+    margin: 0 auto;
+  }
+  .budget-mgmt p {
+    margin-top: 0.5em;
+  }
+  

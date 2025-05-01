@@ -1,0 +1,25 @@
+.dashboard {
+    padding: 1em;
+  }
+  .dashboard h1 {
+    text-align: center;
+  }
+  .dashboard svg {
+    display: block;
+    margin: 1em auto;
+  }
+  .dashboard-content{
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .dashboard-graph{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+  
+  

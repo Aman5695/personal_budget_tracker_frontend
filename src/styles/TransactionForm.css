@@ -1,0 +1,26 @@
+.tx-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5em;
+    margin: 1em 0;
+  }
+  .tx-form select,
+  .tx-form input {
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  .tx-form button {
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 4px;
+    background-color: #28a745;
+    color: #fff;
+  }
+  .tx-form .error {
+    color: #dc3545;
+    font-size: 0.9em;
+    width: 100%;
+  }
+  
+  
